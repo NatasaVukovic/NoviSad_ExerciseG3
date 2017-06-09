@@ -27,7 +27,7 @@ public class Frame {
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		if(firstThrow==7){
+		if(firstThrow==10){
 			return true;
 		}else
 		return false;
