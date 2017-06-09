@@ -42,6 +42,12 @@ public class BowlingGame {
 		return score;
 	}
 
+	public int getFramesNumber(){
+		return frames.size();
+	}
+	
+	
+	
 	
 	}
 
