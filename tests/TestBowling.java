@@ -42,7 +42,13 @@ public class TestBowling {
 		game.addFrame(new Frame(10,0));
 		String check=Boolean.toString(game.getFrames().get(0).isStrike());
 		assertEquals("Greska", check);
-		
+	}
+	
+	@Test 
+	public void testIfFrameScoreWorks() throws BowlingException{
+		BowlingGame game=new BowlingGame();
+		game.addFrame(new Frame(5,2));
+		String score=Integer.toString(game.getFrames().get(0).score());
 	}
 	
 }
