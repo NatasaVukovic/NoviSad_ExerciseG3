@@ -57,4 +57,6 @@ public class TestBowling {
 		BowlingGame game=new BowlingGame();
 		game.addFrame(new Frame(5,6));
 	}
+	
+	
 }

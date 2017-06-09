@@ -56,3 +56,4 @@ RefactoringAction 1497013611100 TestBowling.java RENAME testIfSingleFrameScoreI=
 RefactoringAction 1497013613147 TestBowling.java RENAME testIfSingleFrameScoreIsInsideBounds=>void testIfSingleFrameScoreIsInsideBounds() METHOD
 EditAction 1497013651277 TestBowling.java 1595 6 26 2
 EditAction 1497013660621 Frame.java 748 6 7 0
+EditAction 1497013662949 TestBowling.java 1601 6 26 2
