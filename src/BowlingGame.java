@@ -8,13 +8,24 @@ import java.util.List;
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
+	
+	
+	public List<Frame> getFrames() {
+		return frames;
+	}
+
 	private Frame bonus;
 	
 	public BowlingGame(){}
 	
 	// adds a frame to the game
-	public void addFrame(Frame frame){
-		//to be implemented
+	public void addFrame(Frame frame) throws BowlingException{
+		if(frames.size()<10){
+			frames.add(frame);
+		}else {
+			throws new BowlingException();
+		}
+		
 	}
 	
 	// Sets the bonus throws at the end of the game
@@ -27,4 +38,7 @@ public class BowlingGame {
 		//to be implemented: should return game score 
 		return 0;
 	}
-}
+
+	
+	}
+
