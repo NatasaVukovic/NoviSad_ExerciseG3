@@ -51,7 +51,7 @@ public class TestBowling {
 	@Test 
 	public void testIfSingleFrameScoreIsInsideBounds() throws BowlingException{
 		BowlingGame game=new BowlingGame();
-		game.addFrame(new Frame(5,6));
+		game.addFrame(new Frame(2,6));
 	}
 	
 	
@@ -64,5 +64,6 @@ public class TestBowling {
 		String score=Integer.toString(game.score());
 		assertEquals("Rezultat igre nije ocekivan","20",score);
 	}
+	
 	
 }

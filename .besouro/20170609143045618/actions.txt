@@ -101,3 +101,6 @@ RefactoringAction 1497014145272 TestBowling.java RENAME testIfgameS=>void testIf
 RefactoringAction 1497014146772 TestBowling.java RENAME testIfgameScore=>void testIfgameScoreWorks FIELD
 RefactoringAction 1497014148803 TestBowling.java RENAME testIfgameScoreWorks=>void testIfgameScoreWorks() METHOD
 EditAction 1497014285056 TestBowling.java 1875 6 31 3
+UnitTestCaseAction 1497014290992 TestBowling.java OK
+UnitTestSessionAction 1497014290992 TestBowling.java OK
+EditAction 1497014480300 TestBowling.java 1878 6 31 3
