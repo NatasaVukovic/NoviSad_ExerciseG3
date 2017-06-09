@@ -82,3 +82,11 @@ CompilationAction 1497013872062 TestBowling.java
 UnitTestCaseAction 1497013874081 TestBowling.java OK
 UnitTestSessionAction 1497013874081 TestBowling.java OK
 EditAction 1497013986244 Frame.java 847 6 8 0
+CompilationAction 1497013988463 Frame.java
+CompilationAction 1497014015588 Frame.java
+CompilationAction 1497014015760 Frame.java
+CompilationAction 1497014025931 Frame.java
+CompilationAction 1497014026103 Frame.java
+CompilationAction 1497014040134 Frame.java
+CompilationAction 1497014040291 Frame.java
+EditAction 1497014068320 Frame.java 838 6 7 0

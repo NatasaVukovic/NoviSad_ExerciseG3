@@ -21,7 +21,7 @@ public class Frame {
 			return firstThrow+secondThrow;
 		}else 
 			throw new BowlingException();
-		return 0;
+		
 	}
 
 	//returns whether the frame is a strike or not
