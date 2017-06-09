@@ -55,4 +55,14 @@ public class TestBowling {
 	}
 	
 	
+	@Test
+	public void testIfgameScoreWorks() throws BowlingException{
+		BowlingGame game=new BowlingGame();
+		game.addFrame(new Frame(1,4));
+		game.addFrame(new Frame(1,10));
+		game.addFrame(new Frame(1,3));
+		String score=Integer.toString(game.score());
+		assertEquals("Rezultat igre nije ocekivan","20",score);
+	}
+	
 }

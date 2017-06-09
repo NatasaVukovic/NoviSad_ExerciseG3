@@ -90,3 +90,14 @@ CompilationAction 1497014026103 Frame.java
 CompilationAction 1497014040134 Frame.java
 CompilationAction 1497014040291 Frame.java
 EditAction 1497014068320 Frame.java 838 6 7 0
+CompilationAction 1497014070477 Frame.java
+RefactoringAction 1497014108307 Frame.java ADD int score FIELD
+CompilationAction 1497014110041 Frame.java
+RefactoringAction 1497014140194 TestBowling.java ADD void test FIELD
+RefactoringAction 1497014141209 TestBowling.java RENAME test=>void testIf FIELD
+RefactoringAction 1497014142725 TestBowling.java RENAME testIf=>void testIfgame FIELD
+RefactoringAction 1497014143756 TestBowling.java RENAME testIfgame=>void testIfgameS FIELD
+RefactoringAction 1497014145272 TestBowling.java RENAME testIfgameS=>void testIfgameScore FIELD
+RefactoringAction 1497014146772 TestBowling.java RENAME testIfgameScore=>void testIfgameScoreWorks FIELD
+RefactoringAction 1497014148803 TestBowling.java RENAME testIfgameScoreWorks=>void testIfgameScoreWorks() METHOD
+EditAction 1497014285056 TestBowling.java 1875 6 31 3
