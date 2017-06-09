@@ -43,7 +43,7 @@ public class TestBowling {
 	@Test 
 	public void testIfFrameScoreWorks() throws BowlingException{
 		BowlingGame game=new BowlingGame();
-		game.addFrame(new Frame(5,9));
+		game.addFrame(new Frame(5,2));
 		String score=Integer.toString(game.getFrames().get(0).score());
 	}
 	
