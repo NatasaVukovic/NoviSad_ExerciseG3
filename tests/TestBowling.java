@@ -32,8 +32,16 @@ public class TestBowling {
 		BowlingGame game=new BowlingGame();
 		game.addFrame(new Frame(5,5));
 		String check=Boolean.toString(game.getFrames().get(0).isSpare());
-		assertEquals("Greska",check);
-		
+		assertEquals("Greska",check);	
+	}
+	
+	
+	@Test
+	public void testIfFrameStrikeWorks() throws BowlingException{
+		BowlingGame game=new BowlingGame();
+		game.addFrame(new Frame(10,0));
+		String check=Boolean.toString(game.getFrames().get(0).isStrike());
+		assertEquals("Greska", check);
 		
 	}
 	
