@@ -51,7 +51,7 @@ public class TestBowling {
 	@Test 
 	public void testIfSingleFrameScoreIsInsideBounds() throws BowlingException{
 		BowlingGame game=new BowlingGame();
-		game.addFrame(new Frame(-5,6));
+		game.addFrame(new Frame(5,6));
 	}
 	
 	
