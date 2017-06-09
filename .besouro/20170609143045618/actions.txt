@@ -57,3 +57,6 @@ RefactoringAction 1497013613147 TestBowling.java RENAME testIfSingleFrameScoreIs
 EditAction 1497013651277 TestBowling.java 1595 6 26 2
 EditAction 1497013660621 Frame.java 748 6 7 0
 EditAction 1497013662949 TestBowling.java 1601 6 26 2
+UnitTestCaseAction 1497013665682 TestBowling.java FAIL
+UnitTestSessionAction 1497013665682 TestBowling.java FAIL
+EditAction 1497013835235 BowlingGame.java 1044 6 6 0

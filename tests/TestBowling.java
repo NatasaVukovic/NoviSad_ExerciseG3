@@ -32,7 +32,7 @@ public class TestBowling {
 		BowlingGame game=new BowlingGame();
 		game.addFrame(new Frame(5,5));
 		String check=Boolean.toString(game.getFrames().get(0).isSpare());
-		assertEquals("Greska",check);	
+		assertEquals("Greska","true",check);	
 	}
 	
 	
