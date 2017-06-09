@@ -60,3 +60,25 @@ EditAction 1497013662949 TestBowling.java 1601 6 26 2
 UnitTestCaseAction 1497013665682 TestBowling.java FAIL
 UnitTestSessionAction 1497013665682 TestBowling.java FAIL
 EditAction 1497013835235 BowlingGame.java 1044 6 6 0
+UnitTestCaseAction 1497013837798 TestBowling.java FAIL
+UnitTestSessionAction 1497013837798 TestBowling.java FAIL
+UnitTestCaseAction 1497013849171 TestBowling.java FAIL
+UnitTestSessionAction 1497013849171 TestBowling.java FAIL
+RefactoringAction 1497013858217 TestBowling.java REMOVE testIfFrameSpareWorks() METHOD
+RefactoringAction 1497013858217 TestBowling.java REMOVE test() METHOD
+RefactoringAction 1497013858217 TestBowling.java REMOVE testIfSingleFrameScoreIsInsideBounds() METHOD
+RefactoringAction 1497013858217 TestBowling.java REMOVE testIfFrameOutOfLimit() METHOD
+RefactoringAction 1497013858217 TestBowling.java REMOVE testIfFrameScoreWorks() METHOD
+RefactoringAction 1497013858217 TestBowling.java REMOVE testIfFrameStrikeWorks() METHOD
+RefactoringAction 1497013860264 TestBowling.java ADD void testIfFrameOutOfLimit() METHOD
+RefactoringAction 1497013860264 TestBowling.java ADD void testIfFrameSpareWorks() METHOD
+RefactoringAction 1497013860264 TestBowling.java ADD void testIfFrameStrikeWorks() METHOD
+RefactoringAction 1497013860264 TestBowling.java ADD void testIfFrameScoreWorks() METHOD
+RefactoringAction 1497013860264 TestBowling.java ADD void testIfSingleFrameScoreIsInsideBounds() METHOD
+CompilationAction 1497013862342 TestBowling.java
+UnitTestCaseAction 1497013865031 TestBowling.java FAIL
+UnitTestSessionAction 1497013865031 TestBowling.java FAIL
+CompilationAction 1497013872062 TestBowling.java
+UnitTestCaseAction 1497013874081 TestBowling.java OK
+UnitTestSessionAction 1497013874081 TestBowling.java OK
+EditAction 1497013986244 Frame.java 847 6 8 0

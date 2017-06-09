@@ -4,11 +4,7 @@ import org.junit.Test;
 
 public class TestBowling {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-
+	
 	
 	@Test(expected=BowlingException.class)
 	public void testIfFrameOutOfLimit() throws BowlingException{
@@ -41,7 +37,7 @@ public class TestBowling {
 		BowlingGame game=new BowlingGame();
 		game.addFrame(new Frame(10,0));
 		String check=Boolean.toString(game.getFrames().get(0).isStrike());
-		assertEquals("Greska", check);
+		assertEquals("Greska","true", check);
 	}
 	
 	@Test 
