@@ -42,3 +42,4 @@ RefactoringAction 1497013266221 TestBowling.java RENAME test=>void testIf FIELD
 RefactoringAction 1497013269815 TestBowling.java RENAME testIf=>void testIfFrameScoreWorks FIELD
 RefactoringAction 1497013272893 TestBowling.java RENAME testIfFrameScoreWorks=>void testIfFrameScoreWorks() METHOD
 EditAction 1497013352239 TestBowling.java 1428 5 24 2
+EditAction 1497013477223 BowlingGame.java 968 5 5 0
