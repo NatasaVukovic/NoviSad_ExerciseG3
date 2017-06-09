@@ -51,4 +51,10 @@ public class TestBowling {
 		String score=Integer.toString(game.getFrames().get(0).score());
 	}
 	
+	
+	@Test 
+	public void testIfSingleFrameScoreIsInsideBounds() throws BowlingException{
+		BowlingGame game=new BowlingGame();
+		game.addFrame(new Frame(5,6));
+	}
 }

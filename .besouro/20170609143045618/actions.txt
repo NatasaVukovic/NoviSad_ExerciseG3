@@ -49,3 +49,9 @@ RefactoringAction 1497013506636 BowlingGame.java RENAME getFramesNumber=>int get
 RefactoringAction 1497013507636 BowlingGame.java RENAME getFramesNumbers=>int getFramesNumber FIELD
 RefactoringAction 1497013509652 BowlingGame.java RENAME getFramesNumber=>int getFramesNumber() METHOD
 EditAction 1497013516542 BowlingGame.java 1038 6 6 0
+RefactoringAction 1497013564474 TestBowling.java ADD void test FIELD
+RefactoringAction 1497013601959 TestBowling.java RENAME test=>void testIfSingleFrame FIELD
+RefactoringAction 1497013603991 TestBowling.java RENAME testIfSingleFrame=>void testIfSingleFrameScoreI FIELD
+RefactoringAction 1497013611100 TestBowling.java RENAME testIfSingleFrameScoreI=>void testIfSingleFrameScoreIsInsideBounds FIELD
+RefactoringAction 1497013613147 TestBowling.java RENAME testIfSingleFrameScoreIsInsideBounds=>void testIfSingleFrameScoreIsInsideBounds() METHOD
+EditAction 1497013651277 TestBowling.java 1595 6 26 2
