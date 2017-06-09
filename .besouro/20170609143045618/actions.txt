@@ -25,3 +25,6 @@ RefactoringAction 1497012643924 BowlingGame.java REMOVE getFrames()/2 METHOD
 CompilationAction 1497012649659 BowlingGame.java
 CompilationAction 1497012653768 BowlingGame.java
 EditAction 1497012784956 BowlingGame.java 885 5 2 0
+CompilationAction 1497012787284 BowlingGame.java
+CompilationAction 1497012793894 BowlingGame.java
+EditAction 1497012914596 Frame.java 719 6 7 0
