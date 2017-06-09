@@ -5,3 +5,10 @@ RefactoringAction 1497011501237 BowlingException.java RENAME BowlingException()/
 RefactoringAction 1497011507762 BowlingException.java RENAME <initializer /1>=>BowlingException()/2 METHOD
 RefactoringAction 1497011745017 BowlingException.java RENAME BowlingException()/2=>BowlingException(String) METHOD
 EditAction 1497011748051 BowlingException.java 178 2 2 0
+FileOpenedAction 1497011758700 TestBowling.java 165 1 1 0
+RefactoringAction 1497011806324 TestBowling.java ADD void testIfFrame FIELD
+RefactoringAction 1497011807834 TestBowling.java RENAME testIfFrame=>void testIfFrameOut FIELD
+RefactoringAction 1497011809349 TestBowling.java RENAME testIfFrameOut=>void testIfFrameOutOf FIELD
+RefactoringAction 1497011811359 TestBowling.java RENAME testIfFrameOutOf=>void testIfFrameOutOfLimit() METHOD
+RefactoringAction 1497011814873 TestBowling.java RENAME testIfFrameOutOfLimit()=>void testIfFrameOutOfLimit FIELD
+EditAction 1497011915949 TestBowling.java 700 2 13 0
